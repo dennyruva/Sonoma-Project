@@ -1,0 +1,319 @@
+/*GLOBAL STYLES*/
+/*
+Primary Color:
+Secondary Color:
+Third Color:
+*/
+
+body{
+  height: 1200px;
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana,Geneva,sans-serif;
+  background-image: url(..);
+  background-position: center;
+}
+
+h1, h2, h3{
+  margin:0px;
+}
+
+a{
+  color: #333333;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+  /*HEADER STYLES*/
+  header{
+    height: 120px;
+    background-color: #999999;
+  }
+
+
+  #logo{
+    width: 300px;
+    position: absolute;
+    top: 35px;
+    left: 100px;
+  }
+
+  #logo h1:hover{
+    color: #800000;
+  }
+
+  #menu{
+    position: absolute;
+    top:35px;
+    right:100px;
+  }
+
+  #menu ul{
+    display: inline-block;
+  }
+
+    #menu li{
+      display: block;
+      float:left;
+    }
+
+    #menu li:after{
+      content: " | ";
+      padding: 0px 10px;
+    }
+
+
+#menu a:hover{
+  color: #800000;
+}
+/*Banner styles*/
+#banner-home{
+  height:350px;
+  background-color: #dddddd;
+  background-size: cover;
+  background-image: url(../img/audi-test-cars.jpg);
+  background-position:right;
+}
+
+#banner-home h1{
+  text-align: center;
+  padding: 90px 0px;
+  font-family: 'Lobster', cursive;
+}
+
+/*Blog Styles*/
+.container{
+  width: 1200px;
+  margin: 0 auto;
+overflow: hidden;
+
+}
+
+.blog-1, .blog-2, .blog-3{
+  align-items: center;
+width: 384px;
+float: left;
+padding:5px;
+margin left: 15px;
+
+}
+
+.blog_image{
+  width: 300px;
+  height: 200px;
+
+}
+
+#blog h2{
+  text-align:center;
+  margin: 10px; 0;
+}
+
+#blog{
+  text-align: justify;
+}
+
+.button{
+  padding: 10px 30px;
+  background-color: grey;
+  border: 2px ;
+  display: inline-block;
+  font: 2em;
+  font-weight: 700;
+  color: #333;
+margin:10px 0px;
+}
+
+
+/*About Styles*/
+#about{
+  border: 2px dotted #333;
+  padding: 10px;
+  border-radius: 4px;
+  clear: left;
+}
+
+.alignleft{
+  margin-right: 24px;
+  margin-top: 10;
+  float:left;
+  width:384px;
+
+}
+
+.selfie{
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+}
+
+  #about h1{
+    text-align: center;
+    font-size: 3em;
+  }
+
+/*====ABOUT PAGE STYLES====*/
+
+
+.photoheader{
+  text-align: center;
+  float: left;
+}
+
+#banner2-home{
+  height:350px;
+  background-color: #dddddd;
+  background-size: cover;
+  background-image: url(../img/Sonoma.jpg);
+  background-position:right;
+}
+
+#banner2-home h1{
+  text-align: center;
+  padding: 90px 0px;
+  font-family: 'Lobster', cursive;}
+
+#video{
+width: 375;
+height: 300;
+position: relative;
+padding-bottom: 56%;
+padding-top:30px;
+height:0px;
+overflow: hidden;
+}
+
+.video-container{
+  width: 98%;
+  margin:0px auto;
+}
+
+#video iframe{
+  position: absolute;
+  top: 0px;
+  left:0px;
+  width: 100%;
+  height:100%;
+
+}
+
+#about-pages {
+  padding:10px;}
+
+  #about-page article{
+     width: 600px;
+     float: left;
+     padding:10px;
+  }
+
+#about-page h1{
+  text-align: center;
+  font-size: 3em;
+  }
+
+#about-page p{
+  line-height: 1.2em;
+text-align: justify;
+}
+
+#about-page li{
+  padding:2px;
+}
+
+  .align-right{
+    margin-right: 24px;
+    margin-top: 85px;
+    float: right;
+    width: 384px;
+}
+
+
+/*About Styles*/
+#about2{
+  padding: 10px;
+  border-radius: 4px;
+  clear: left;
+}
+
+.alignleft{
+  margin-right: 24px;
+  margin-top: 10;
+  float:left;
+  width:384px;
+
+}
+
+.selfie2{
+  float: left;
+  width: 400px;
+  height: 300px;
+  margin: 5px;
+}
+
+  #about2 h1{
+    text-align: center;
+    font-size: 3em;
+  }
+
+/*end about styles*/
+
+/*end about page*/
+
+/*Contact start*/
+
+#banner3-home{
+  height:350px;
+  background-color: #dddddd;
+  background-size: cover;
+  background-image: url(../img/sunrise.jpg);
+  background-position:right;
+}
+
+#banner3-home h1{
+  text-align: center;
+  padding: 90px 0px;
+  font-family: 'Lobster', cursive;
+}
+
+
+.map{
+  float: left;
+  margin: 20px 5px;
+}
+
+.info{
+  float:left;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+#contact h3{font-size: 3em;
+}
+
+#contact ul{
+  padding-left:10px;
+}
+
+  #Contact il{
+    padding: 20px 0px;
+  }
+/*contact end*/
+
+/*begin footer*/
+
+#footer {
+clear: both;
+text-align: center;
+position: relative;
+bottom: 0;
+}
+
+.copyright-text{
+  float:left;
+  margin-top: 100px;
+  margin-left: 480px;
+}
